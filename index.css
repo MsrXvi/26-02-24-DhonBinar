@@ -1,18 +1,40 @@
-h1{
+/* h1{
     font-size: 30px;
     color: blue;
-}
+} */
 
 /* CSS untuk screen dibawah atau sama dengan 600px lebar/widthnya */
 @media (max-width:600px){
-    h1 {
+    /* h1 {
         color: yellow;
         font-size: 39px;
-    }
+    } */
 }
 
 @media (orientation: landscape) and (max-width: 800px){
-    h1{
+    /* h1{
         color: red;
+    } */
+}
+@media (max-width: 800px){
+    .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
     }
+    .card img{
+        width: 100px;
+    }
+}
+body{
+    font-family: "Playfair Display", serif;
+}
+.left-section{
+    float: left;
+}
+.right-section{
+    float: right;
+}
+.card img{
+    object-fit: cover;
 }
