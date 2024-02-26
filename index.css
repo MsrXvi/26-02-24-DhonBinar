@@ -1,18 +1,18 @@
-h1{
+/* h1{
     font-size: 30px;
     color: blue;
-}
+} */
 
 /* CSS untuk screen dibawah atau sama dengan 600px lebar/widthnya */
 @media (max-width:600px){
-    h1 {
+    /* h1 {
         color: yellow;
         font-size: 39px;
-    }
+    } */
 }
 
 @media (orientation: landscape) and (max-width: 800px){
-    h1{
+    /* h1{
         color: red;
-    }
+    } */
 }
