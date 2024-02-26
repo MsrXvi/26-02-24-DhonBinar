@@ -16,3 +16,25 @@
         color: red;
     } */
 }
+@media (max-width: 800px){
+    .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    .card img{
+        width: 100px;
+    }
+}
+body{
+    font-family: "Playfair Display", serif;
+}
+.left-section{
+    float: left;
+}
+.right-section{
+    float: right;
+}
+.card img{
+    object-fit: cover;
+}
